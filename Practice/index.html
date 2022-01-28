@@ -1,0 +1,105 @@
+<html>
+
+<body>
+    <script>
+        // Write a program to check a number is divisible by 7 or not
+        var b = 35;
+        if (b / 7) {
+            console.log(b + " " + "is divisible by 7")
+        }
+        else {
+            console.log(b + "is not divisible by 7")
+        }
+
+        //Write a program to check a number is factor of 84 or not
+        var c = 84;
+        console.log("The factors of" + " " + c)
+        for (var i = 1; i <= c; i++) {
+            if (c % i == 0) {
+                console.log(i)
+            }
+        }
+
+        //Write a program to check a number is factor of 96 or not 
+        //and if the given number is more Than 96 program should say ‘not a valid input’
+        var d = 110;
+        if (d > 96) {
+            console.log(d + " " + "not a valid input")
+        }
+        else {
+            console.log("The factors of" + " " + d)
+            for (var i = 1; i <= d; i++) {
+                if (d % 1 == 0) {
+                    console.log(i)
+                }
+            }
+        }
+
+        //Write a program to check a number is multiple of 3 or not
+        var num;
+        num = prompt("Enter the number")
+        if (num % 3 == 0) {
+            console.log(num + " " + "is Multiple of 3")
+        }
+        else {
+            console.log(num + " " + "Not a multiple of 3")
+        }
+
+        //Write a program to check a number is positive or not 
+        var num = -98;
+        if (num > 0) {
+            console.log(num + " " + "is positive number")
+        }
+        else {
+            console.log(num + " " + " not a  positive number")
+        }
+
+        //Write a program to print even or odd for a given number
+        var a = 44;
+        if (a % 2 == 0) {
+            console.log(a + " " + "is even number")
+        }
+        else {
+            console.log(a + " " + " is not even number")
+        }
+
+        //Write a program to print the greatest number in given three numbers 
+        var a = 10
+        var b = 20
+        var c = 40
+        var result = (a < b) ? (a < c ? a : c) : (b < c ? b : c)
+        console.log("The least number is" + " " + result)
+
+        //Write a program to print the given three numbers in ascending order
+        var a = 8;
+        var b = 9000;
+        var c = 45;
+        if (a > b && a > c) {
+            if (b > c) {
+                console.log(a + "," + b + "," + c)
+            }
+            else {
+                console.log(a + "," + c + "," + b)
+            }
+        }
+        else if (b > a && b > c) {
+            if (a > c) {
+                console.log(b + "," + a + "," + c)
+            }
+            else {
+                console.log(b + "," + c + "," + a)
+            }
+        }
+        else if (c > a && c > b) {
+            if (b > c) {
+                console.log(c + "," + a + "," + b)
+            }
+            else {
+                console.log(c + "," + b + "," + a)
+            }
+        }
+
+    </script>
+</body>
+
+</html>
