@@ -1,0 +1,7 @@
+console.log('hii')
+console.log('1+14')
+console.log(true)
+console.warn('warn')
+console.timeEnd('kjk')
+console.assert(42<12)
+console.error('dhhl')
