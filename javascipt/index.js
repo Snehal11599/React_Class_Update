@@ -1,0 +1,7 @@
+console.log('hi')
+console.log(56+87)
+console.log(true)
+console.warn('warn')
+console.timeEnd('bxb')
+console.assert(45<89)
+console.error('bbx')
